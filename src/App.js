@@ -1,5 +1,6 @@
 import CounterCtx from "./TASKS/CONTEXT/CounterCtx"
 import Counter from "./TASKS/Counter"
+import WordCounter from "./TASKS/setTineout/Test1"
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
         <Counter />
         {/* USING CONTEXT */}
         <CounterCtx />
+
+        <WordCounter />
         </>
     )
 }
