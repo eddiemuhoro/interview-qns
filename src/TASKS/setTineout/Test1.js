@@ -3,9 +3,10 @@ import React, { useState, useEffect } from "react";
 function WordCounter() {
   return <WordByWord />;
 }
-
+//awz-kxbo-abi
 const WordByWord = () => {
   // YOUR CODE HERE
+  //states - js variable that can be changed 
   const [input, setInput] = useState("");
   const [text, setText] = useState([]);
   const [word, setWord] = useState(1);
@@ -21,7 +22,6 @@ const WordByWord = () => {
       setInput("");
     }
   };
-
   useEffect(() => {
     if (text && word < text.length) {
       const time = setTimeout(() => setWord(word + 1), 100);
