@@ -25,7 +25,7 @@ const Child = memo(({data}) => {
     console.log('Im running')
     return(
         <>
-        <p>child</p>
+        <p>React Memo</p>
         <p>{data}</p>
         </>
     )

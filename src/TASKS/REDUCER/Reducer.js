@@ -29,6 +29,7 @@ const Reducer = () => {
     }
   return (
     <div>
+        <p>React Redux</p>
         <p>{state.count}</p>
         <button onClick={handleAdd}>Add</button>
         <button onClick={handleRemove}>Remove</button>
