@@ -2,3 +2,10 @@ body{
     background-color: black;
     color: aliceblue;
 }
+
+.App{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}

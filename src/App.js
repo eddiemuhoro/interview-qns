@@ -4,24 +4,28 @@ import Usememo from "./TASKS/MEMO/Usememo"
 import Reducer from "./TASKS/REDUCER/Reducer"
 import WordCounter from "./TASKS/setTineout/Test1"
 import './App.css'
+import Images from "./TASKS/IMAGE-COROUSSEL/Images"
 
 function App() {
     return (
-        <>
+        // <>
         
-        <h2>Props</h2>
-        {/* USING PROPS */}
-        <Counter />
-        {/* USING CONTEXT */}
-        <CounterCtx />
+        // <h2>Props</h2>
+        // {/* USING PROPS */}
+        // <Counter />
+        // {/* USING CONTEXT */}
+        // <CounterCtx />
 
-        <WordCounter />
-        {/* REDUCER */}
-        <Reducer />
+        // <WordCounter />
+        // {/* REDUCER */}
+        // <Reducer />
 
-        <Usememo />
+        // <Usememo />
         
-        </>
+        // </>
+        <div className="App">
+         <Images />
+        </div>
     )
 }
 
